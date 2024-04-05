@@ -7,7 +7,7 @@ function Food(){
     return(
         <ul>
             <li>{food1}</li>
-            <li>{food2}</li>
+            <li>{food2.toUpperCase()}</li>
             <li>Apple</li>
         </ul>
     );
