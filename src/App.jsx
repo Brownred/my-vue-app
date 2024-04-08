@@ -1,15 +1,12 @@
-import Header from './header.jsx'
-import Footer from './footer.jsx'
-import Food from './food.jsx'
+import userGreeting from "./userGreeting.jsx"
+
 
 // Our app component ties all components together.
 function App() {
   
   return (
     <>
-      <Header />
-      <Food />
-      <Footer />
+      <userGreeting isLoggedIn={true} username="BroCode"/>
     </>
   )
 }
